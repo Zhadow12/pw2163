@@ -19,6 +19,7 @@ header {
 	background: green; /*fondo*/
 	border: 5px solid red;
 	color: white;
+	padding: 0px 0px 10px 0px;
 	text-align: center; /*alineación*/
 
 }
@@ -27,7 +28,20 @@ header nav ul li {
 	/*border: 1px solid yellow;*/
 	background: goldenrod;
 	border-radius: 5px;
-	display: inline-block;
+	box-shadow: 5px 5px;
+	display: inline-block; /*rompe modelo de caja */
+	margin: 0px 10px 50px 10px; /*separo las cajas*/
+	padding: 5px, 10px; /*agrando los botones (interno)*/
+	width: 80px; /*ancho del boton*/
 
 
 }
+
+header nav ul li:hover /*mouse color por encima */
+	 {
+
+	background: white;
+	color: orange;
+
+}
+
