@@ -8,6 +8,7 @@ body  /*selector -etiqueta */
 	/*atributo:valor;*/
 	border: 5px solid blue;
 	border-radius:  10px;
+	margin: 0px auto;
 	max-width: 1024px;
 
 
@@ -16,11 +17,19 @@ body  /*selector -etiqueta */
 }
 
 header {
-	background: green; /*fondo*/
+	background: purple; /*fondo*/
 	border: 5px solid red;
 	color: white;
 	padding: 0px 0px 10px 0px;
 	text-align: center; /*alineación*/
+
+}
+
+header img {
+float: right;
+margin: -60px 20px 0px 0px;
+width: 100px; /*ancho de la imagen*/
+
 
 }
 
