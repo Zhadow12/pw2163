@@ -10,10 +10,17 @@ body  /*selector -etiqueta */
 	border-radius:  10px;
 	margin: 0px auto;
 	max-width: 1024px;
+	font-size: 16px; /*tamaño de la fuente estandar*/
 
 
 
 
+}
+
+footer{ 
+border: 1px solid blue;
+font-size: 8em;
+text-align: center; /*alineamos todo el texto*/
 }
 
 header {
@@ -51,6 +58,21 @@ header nav ul li:hover /*mouse color por encima */
 
 	background: white;
 	color: orange;
+
+}
+
+main section {
+
+	margin: 15px 0px 0px 0px;
+}
+
+main section article
+{
+
+	/*border:1px solid red;*/
+	display: inline-block;
+	vertical-align: top;
+	width: 24%;
 
 }
 
