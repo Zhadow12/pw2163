@@ -56,6 +56,7 @@ margin-top: 20px;
 
 #primerseccion
 {
+	height: 317.99px;
 	margin-top: 70px;
 
 }
@@ -73,11 +74,38 @@ margin-top: 20px;
 	width: 60%;
 }
 
+#segundaseccion article
+{
+	padding-right: 155px;
+	text-align: right;
+}
+
+#terceraseccion article{
+
+	display: inline-block;
+	width: 22%;
+	vertical-align: top;
+}
+
+/*#primerseccion,#segundaseccion{
+border: 1px solid red;
+
+}*/
+
+
 #secc01art02
 {
 width: 30%;
 
 }
+
+.numerotelefono{
+	color: #FF0099;
+	font-size: 2.5em;
+	font-weight: bold;
+
+}
+
 
 .wecanoffer{
 	color:#FF0099;
