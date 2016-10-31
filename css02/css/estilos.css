@@ -112,10 +112,6 @@ width: 30%;
 	list-style: none;
 }
 
-#secc01art02 ul li:before{
-	content: "·";
-	color: lightpink;
-}
 
 .colorazul{
 	color: #16BEF8;
