@@ -48,6 +48,16 @@ var inicioUsuarios = function()
 	}
 	$("#btnValidaUsuario").on("click",validaUsuario);
 }
+
+	var Alta= function(){
+		$("#artAltaUsuarios").show("slow");
+	}
+
+
+$("#txtClave").on("keypress",teclaClave);
+$("#btnAlta").on("click",Alta);
+$("#btnGuardaUsuario").on("click",GuardaUsuario);
+
 //Evento inicial
 $(document).on("ready",inicioUsuarios);
 
